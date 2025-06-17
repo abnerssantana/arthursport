@@ -107,7 +107,7 @@ export default function ArthurSportSite() {
           </motion.div>
 
           <motion.h1
-            className="text-6xl md:text-8xl font-extralight mb-6 leading-tight tracking-tight antialiased"
+            className="text-6xl md:text-8xl font-normal mb-6 leading-tight tracking-tight antialiased"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.2 }}
@@ -121,7 +121,7 @@ export default function ArthurSportSite() {
             </motion.span>
             <br />
             <motion.span 
-              className="text-red-500 font-light"
+              className="text-red-500 font-bold"
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.5 }}
@@ -131,12 +131,12 @@ export default function ArthurSportSite() {
           </motion.h1>
 
           <motion.p
-            className="text-2xl md:text-3xl mb-8 text-gray-300 font-light tracking-wide antialiased"
+            className="text-2xl md:text-3xl mb-8 text-gray-300 font-light tracking-wide antialiased uppercase"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.4 }}
           >
-            Eles se <span className="text-red-500 font-light">constroem</span>.
+            São forjados com o <span className="text-red-500 font-light">tempo</span>
           </motion.p>
 
           <motion.p
@@ -301,7 +301,7 @@ export default function ArthurSportSite() {
               viewport={{ once: true }}
             >
               <Image
-                src="/placeholder.svg?height=600&width=500"
+                src="/body1.jpg?height=600&width=500"
                 alt="Physical transformation results"
                 width={500}
                 height={600}
@@ -319,7 +319,7 @@ export default function ArthurSportSite() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="relative order-2 lg:order-1">
               <Image
-                src="/placeholder.svg?height=600&width=500"
+                src="/kf.jpg?height=600&width=500"
                 alt="Traditional Kung Fu training"
                 width={500}
                 height={600}
@@ -416,7 +416,7 @@ export default function ArthurSportSite() {
             <Card className="bg-gradient-to-br from-gray-900/40 via-red-950/10 to-gray-900/40 border-red-900/30 overflow-hidden group hover:border-red-500/50 transition-all duration-300 backdrop-blur-sm">
               <div className="relative h-48">
                 <Image
-                  src="/placeholder.svg?height=200&width=400"
+                  src="/urban.jpg?height=200&width=400"
                   alt="Urban combat"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform"
