@@ -349,14 +349,14 @@ export default function ArthurSportSite() {
                   <CardContent className="p-6 text-center">
                     <Sword className="w-8 h-8 text-red-500 mx-auto mb-2" />
                     <h3 className="font-bold mb-2 antialiased">Formas Tradicionais</h3>
-                    <p className="text-sm text-gray-400 antialiased">Movimentos ancestrais</p>
+                    <p className="text-sm text-gray-700 antialiased">Movimentos ancestrais</p>
                   </CardContent>
                 </Card>
                 <Card className="bg-gradient-to-br from-gray-900/50 to-red-950/20 border-red-900/30 backdrop-blur-sm">
                   <CardContent className="p-6 text-center">
                     <Star className="w-8 h-8 text-red-500 mx-auto mb-2" />
                     <h3 className="font-bold mb-2 antialiased">Filosofia</h3>
-                    <p className="text-sm text-gray-400 antialiased">Mente e corpo unidos</p>
+                    <p className="text-sm text-gray-700 antialiased">Mente e corpo unidos</p>
                   </CardContent>
                 </Card>
               </div>
@@ -399,7 +399,7 @@ export default function ArthurSportSite() {
             <Card className="bg-gradient-to-br from-gray-900/40 via-red-950/10 to-gray-900/40 border-red-900/30 overflow-hidden group hover:border-red-500/50 transition-all duration-300 backdrop-blur-sm">
               <div className="relative h-48">
                 <Image
-                  src="/placeholder.svg?height=200&width=400"
+                  src="/sanda.jpg?height=200&width=400"
                   alt="Sanda training"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform"
@@ -408,7 +408,7 @@ export default function ArthurSportSite() {
               </div>
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold mb-2 antialiased">SANDA</h3>
-                <p className="text-gray-400 mb-4 antialiased">Kickboxing chinês para competição e defesa pessoal</p>
+                <p className="text-gray-700 mb-4 antialiased">Kickboxing chinês para competição e defesa pessoal</p>
                 <Button className="w-full bg-gradient-to-r from-red-600/80 to-red-700/80 hover:from-red-600 hover:to-red-700 backdrop-blur-sm">TREINAR SANDA</Button>
               </CardContent>
             </Card>
@@ -425,7 +425,7 @@ export default function ArthurSportSite() {
               </div>
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold mb-2 antialiased">DEFESA URBANA</h3>
-                <p className="text-gray-400 mb-4 antialiased">Técnicas práticas para situações reais</p>
+                <p className="text-gray-700 mb-4 antialiased">Técnicas práticas para situações reais</p>
                 <Button className="w-full bg-gradient-to-r from-red-600/80 to-red-700/80 hover:from-red-600 hover:to-red-700 backdrop-blur-sm">APRENDER DEFESA</Button>
               </CardContent>
             </Card>
@@ -433,7 +433,7 @@ export default function ArthurSportSite() {
             <Card className="bg-gradient-to-br from-gray-900/40 via-red-950/10 to-gray-900/40 border-red-900/30 overflow-hidden group hover:border-red-500/50 transition-all duration-300 backdrop-blur-sm">
               <div className="relative h-48">
                 <Image
-                  src="/placeholder.svg?height=200&width=400"
+                  src="/box.jpg?height=200&width=400"
                   alt="Competition training"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform"
@@ -442,7 +442,7 @@ export default function ArthurSportSite() {
               </div>
               <CardContent className="p-6">
                 <h3 className="text-xl font-bold mb-2 antialiased">COMPETIÇÃO</h3>
-                <p className="text-gray-400 mb-4 antialiased">Preparação para campeonatos e torneios</p>
+                <p className="text-gray-700 mb-4 antialiased">Preparação para campeonatos e torneios</p>
                 <Button className="w-full bg-gradient-to-r from-red-600/80 to-red-700/80 hover:from-red-600 hover:to-red-700 backdrop-blur-sm">COMPETIR</Button>
               </CardContent>
             </Card>
